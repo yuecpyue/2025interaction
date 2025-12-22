@@ -46,15 +46,12 @@ void loadData(String s){
   }
 }
 void loadardio(){
-  drumClap = minim.loadFile("drum-hitclap.wav");
-  drumFinish = minim.loadFile("drum-hitfinish.wav");
   drumNormal = minim.loadFile("drum-hitnormal.wav");
   normalFinish = minim.loadFile("normal-hitfinish.wav");
   normalNormal = minim.loadFile("normal-hitnormal.wav");
   softClap = minim.loadFile("soft-hitclap.wav");
   softFinish = minim.loadFile("soft-hitfinish.wav");
   softWhistle = minim.loadFile("soft-hitwhistle.wav");
-  sliderSlide = minim.loadFile("soft-sliderslide.wav");
 }
 void ardio(int i){
     if(i==0) return;
